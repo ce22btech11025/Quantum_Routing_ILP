@@ -516,7 +516,7 @@ if __name__ == "__main__":
     # Generate network
     graph, cost_matrix = generate_sparse_network(
         num_nodes=5,
-        target_edges=6,
+        target_edges=4,
         topology_type='random_geometric'
     )
 

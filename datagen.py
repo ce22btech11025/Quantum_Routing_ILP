@@ -294,7 +294,7 @@ def generate_quantum_demands(graph, num_demands=30, demand_distribution='uniform
     - actual_num_demands: actual number of demands generated (may be less than requested)
     - max_possible_demands: maximum possible non-adjacent demand pairs
     """
-    random.seed(42)
+    random.seed(10)
     nodes = list(graph.keys())
     
     # Build set of connected pairs (edges)
